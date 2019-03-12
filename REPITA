@@ -1,0 +1,54 @@
+caracter respuesta
+entero nota, n1,n2,s,m,r
+inicio
+nota<-0
+n1<-0
+n2<-0
+respuesta<-' '
+	repita
+		llamar nueva_linea
+		 escriba "ingrese la nota"
+		  llamar nueva_linea
+		   lea nota
+		     escriba "programa multiplica"
+				llamar nueva_linea
+				escriba "ingrese primer numero"
+				llamar nueva_linea
+				lea n1
+				escriba "ingrese segundo numero"
+				llamar nueva_linea
+				lea n2
+				m<-n1*n2
+				escriba "la multiplicacion es: ", m
+		repita
+		llamar nueva_linea
+		escriba "desea continuar? S/N"
+		llamar nueva_linea
+		lea respuesta
+			escriba "programa resta"
+				llamar nueva_linea
+				escriba "ingrese primer numero"
+				llamar nueva_linea
+				lea n1
+				escriba "ingrese segundo numero"
+				llamar nueva_linea
+				lea n2
+				r<-n1-n2
+				escriba "la resta es: ", r
+			hasta (respuesta='s')o(respuesta='n')
+				llamar nueva_linea
+				escriba "programa suma"
+				llamar nueva_linea
+				escriba "ingrese primer numero"
+				llamar nueva_linea
+				lea n1
+				escriba "ingrese segundo numero"
+				llamar nueva_linea
+				lea n2
+				s<-n1+n2
+				escriba "la suma es: ", s
+				hasta (respuesta='n')
+				llamar nueva_linea
+				escriba "que nota"
+fin 
+
