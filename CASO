@@ -1,0 +1,15 @@
+entero opcion
+inicio
+opcion<-0
+	escriba "ingrese una entrada para activar la luz de un piso"
+	lea opcion
+	caso opcion
+		1: escriba "activaste el piso 1" 
+		2: escriba "activaste el piso 2" 
+		3: escriba "activaste el piso 3" 
+		4: escriba "activaste el piso 4" 
+		5: escriba "activaste el piso 5" 
+	Sino: 
+		 escriba "opcion invalida"
+	fin caso
+fin
