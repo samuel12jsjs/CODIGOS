@@ -14,9 +14,9 @@ gallinas[4,1]<-5
 gallinas[4,2]<-2
 gallinas[4,3]<-31
 	para filas<-1 hasta 4 haga
-	para columnas<-1 hasta 3 haga
-		llamar nueva_linea
-		escriba gallinas[filas,columnas]
+		para columnas<-1 hasta 3 haga
+			llamar nueva_linea
+			escriba gallinas[filas,columnas]
 		fin para
 	fin para
 fin
